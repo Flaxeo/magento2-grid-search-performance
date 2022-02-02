@@ -2,9 +2,12 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
     <system>
+        <tab id="flaxeo" translate="label" sortOrder="400" class="flaxeo-extensions">
+            <label>Flaxeo Extensions</label>
+        </tab>
         <section id="flaxeo_global_config" translate="label" sortOrder="5" showInDefault="1" showInWebsite="0" showInStore="0">
-            <label>Flaxeo global config</label>
-            <tab>general</tab>
+            <label>Flaxeo grid search performance</label>
+            <tab>flaxeo</tab>
             <resource>Flaxeo_GridSearchPerformance::config</resource>
             <group id="strictfields" translate="label" type="text" sortOrder="5" showInDefault="1" showInWebsite="0"
                    showInStore="0">
